@@ -7,7 +7,7 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.suyf.mediadev.render.GLAdjustImageRender
 
-class L2RenderImageAdjustActivity : AppCompatActivity() {
+class L2ImageAdjustActivity : AppCompatActivity() {
     private lateinit var glSurfaceView: GLSurfaceView
     private lateinit var glAdjustImageRender: GLAdjustImageRender
 

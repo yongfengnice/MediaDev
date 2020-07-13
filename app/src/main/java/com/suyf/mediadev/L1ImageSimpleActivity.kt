@@ -5,7 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.suyf.mediadev.render.GLSimpleImageRender
 
-class L1RenderImageSimpleActivity : AppCompatActivity() {
+class L1ImageSimpleActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

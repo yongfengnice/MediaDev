@@ -12,7 +12,7 @@ import com.suyf.mediadev.render.GLFilerImageRender
 import com.suyf.mediadev.utils.PathUtils
 import kotlin.concurrent.thread
 
-class L3RenderImageFilterActivity : AppCompatActivity() {
+class L3ImageFilterActivity : AppCompatActivity() {
     private lateinit var glSurfaceView: GLSurfaceView
     private lateinit var seekBar: SeekBar
     private lateinit var glFilerImageRender: GLFilerImageRender

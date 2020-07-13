@@ -19,7 +19,7 @@ import com.suyf.mediadev.utils.GLHelper
 import com.suyf.mediadev.utils.PathUtils
 import java.io.File
 
-class L4RenderImageFBOActivity1 : AppCompatActivity() {
+class L4ImageFBOActivity1 : AppCompatActivity() {
     private val choosePhotoCode = 0x1001
     private lateinit var seekBar: SeekBar
     private lateinit var glSurfaceView: GLSurfaceView

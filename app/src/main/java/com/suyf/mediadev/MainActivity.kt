@@ -23,23 +23,23 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun renderImageSimple(view: View) {
-        startActivity(Intent(this, L1RenderImageSimpleActivity::class.java))
+        startActivity(Intent(this, L1ImageSimpleActivity::class.java))
     }
 
     fun renderImageAdjust(view: View) {
-        startActivity(Intent(this, L2RenderImageAdjustActivity::class.java))
+        startActivity(Intent(this, L2ImageAdjustActivity::class.java))
     }
 
     fun renderImageFilter(view: View) {
-        startActivity(Intent(this, L3RenderImageFilterActivity::class.java))
+        startActivity(Intent(this, L3ImageFilterActivity::class.java))
     }
 
     fun fboImageFilter(view: View) {
-        startActivity(Intent(this, L4RenderImageFBOActivity1::class.java))
+        startActivity(Intent(this, L4ImageFBOActivity1::class.java))
     }
 
     fun fboImageFilter2(view: View) {
-        startActivity(Intent(this, L4RenderImageFBOActivity2::class.java))
+        startActivity(Intent(this, L4ImageFBOActivity2::class.java))
     }
 
     fun cameraPreview(view: View) {

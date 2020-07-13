@@ -30,19 +30,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".L1RenderImageSimpleActivity"
+            android:name=".L1ImageSimpleActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".L2RenderImageAdjustActivity"
+            android:name=".L2ImageAdjustActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".L3RenderImageFilterActivity"
+            android:name=".L3ImageFilterActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".L4RenderImageFBOActivity1"
+            android:name=".L4ImageFBOActivity1"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".L4RenderImageFBOActivity2"
+            android:name=".L4ImageFBOActivity2"
             android:screenOrientation="portrait" />
         <activity
             android:name=".L5Camera1PreviewActivity"

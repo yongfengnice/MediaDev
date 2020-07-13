@@ -16,7 +16,7 @@ import com.suyf.mediadev.utils.PathUtils
 import com.suyf.mediadev.view.BlockGLTextureView
 import java.io.File
 
-class L4RenderImageFBOActivity2 : AppCompatActivity() {
+class L4ImageFBOActivity2 : AppCompatActivity() {
     private val choosePhotoCode = 0x1001
     private lateinit var seekBar: SeekBar
     private lateinit var blockGLTextureView: BlockGLTextureView
